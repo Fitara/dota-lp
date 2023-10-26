@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dota 2</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/images/icons/dota2.png"
+      sizes="64x64"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-left">
+          <li class="logo-web">
+            <a href="#home">
+              <img
+                class="logo-image"
+                src="./assets/images/icons/dota-logo.png"
+                alt="Dota 2"
+              />
+              <p class="logo-title">Dota 2</p>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="drop-button">Game</a>
+            <div class="dropdown-content">
+              <a href="https://www.dota2.com/patches/7.34c">Patches</a>
+              <a href="https://www.dota2.com/news/updates">Gameplay Updates</a>
+              <a href="https://www.dota2.com/pastupdates">Previous Updates</a>
+            </div>
+          </li>
+          <li><a href="#heroes" id="heroes-link">Heroes</a></li>
+          <li><a href="#news" id="news-link">News</a></li>
+          <li><a href="#esports" id="esports-link">Esports</a></li>
+        </ul>
+        <ul class="nav-right">
+          <li class="login">
+            <a href="https://steamcommunity.com/oauth/loginform">
+              <p class="login-title">Login</p>
+              <img
+                src="./assets/images/icons/login.png"
+                alt="Login Image"
+                class="login-image"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div id="bg-video-container">
+          <video autoplay loop muted class="bg-video">
+            <source
+              src="./assets/images/background/dota2-video.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div class="bg-video-top"></div>
+          <div class="bg-video-bottom"></div>
+        </div>
+        <div class="home-container">
+          <div class="home-left">
+            <blockquote class="block-quote">
+              <p class="quote-text">"A modern multiplayer masterpiece."</p>
+              <p class="quote-span"><span>—</span>destructoid</p>
+              <p class="border-title"></p>
+            </blockquote>
+            <a
+              href="https://store.steampowered.com/app/570/Dota_2/"
+              class="steam-button"
+            >
+              <img
+                class="steam-image"
+                src="./assets/images/icons/steam.png"
+                alt="Steam Image"
+              />
+              <div class="steam-text-wrap">
+                <p class="steam-text-1">Play for free</p>
+                <p class="steam-text-2">Download on Steam</p>
+              </div>
+            </a>
+          </div>
+          <aside class="home-right">
+            <figure>
+              <img
+                src="./assets/images/aside-image.png"
+                alt="Gambar Dota 2"
+                class="main-image"
+              />
+              <figcaption>
+                <p class="fig-caption">
+                  <span>Dota&nbsp;—&nbsp;</span>Defense Of The Ancients.
+                </p>
+                <div class="publisher">
+                  <img
+                    src="./assets/images/icons/valve.png"
+                    class="valve-icon"
+                    alt="Valve Icon"
+                  />
+                  <p class="valve-text">Corporation&trade;</p>
+                </div>
+              </figcaption>
+            </figure>
+            <a href="https://www.dota2.com/home" class="button">
+              <p class="button-text">See what's new</p>
+            </a>
+          </aside>
+        </div>
+      </section>
+
+      <section id="news">
+        <div class="news-container">
+          <div class="news-wrapper">
+            <h1 class="news-headline">Latest News</h1>
+            <a class="news-button" href="https://www.dota2.com/news"
+              >View all
+              <img
+                src="./assets/images/icons/right-arrow.png"
+                alt="Arrow Icon"
+              />
+            </a>
+          </div>
+          <article class="news-card-container">
+            <div class="news-card">
+              <img src="./assets/images/news/sept-2023.png" alt="Sept News" />
+              <div class="content">
+                <span class="author">September 15, 2023</span>
+                <h1 class="news-title">The Dota Pro Circuit</h1>
+                <p class="news-description">
+                  We started the Dota Pro Circuit in 2017 to answer a question
+                  that was coming up more and more frequently: How do you earn
+                  an invite to The International?
+                </p>
+              </div>
+            </div>
+            <div class="news-card">
+              <img src="./assets/images/news/aug-2023.png" alt="Aug News" />
+              <div class="content">
+                <span class="author">August 31, 2023</span>
+                <h1 class="news-title">The Summer Update</h1>
+                <p class="news-description">
+                  Summer is hurtling toward its inevitable, pumpkin spiced end,
+                  and we’re seeing it off in style with a whole bunch of pretty
+                  sweet quality of life improvements.
+                </p>
+              </div>
+            </div>
+            <div class="news-card">
+              <img src="./assets/images/news/apr-2023.png" alt="Apr News" />
+              <div class="content">
+                <span class="author">April 20, 2023</span>
+                <h1 class="news-title">Riddles in the Dark</h1>
+                <p class="news-description">
+                  As a lot of you know, there’s a big update coming. We figured
+                  it might be fun to tease some of the patch notes ahead of
+                  time, without spoiling the surprise.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="heroes">
+        <div class="heroes-container">
+          <div class="fade-in">
+            <div class="title-wrap">
+              <h2 class="title-1">Who will you</h2>
+              <h1 class="title-2">Choose?</h1>
+            </div>
+          </div>
+          <p class="border-title"></p>
+          <blockquote class="description">
+            From magical tacticians to fierce brutes and cunning rogues, Dota
+            2's hero pool is massive and limitlessly diverse. Unleash incredible
+            abilities and devastating ultimates on your way to victory.
+          </blockquote>
+          <a href="https://www.dota2.com/heroes" class="button">
+            <p class="button-text">View all heroes</p>
+          </a>
+          <div class="hero-cards-container">
+            <h1 class="favorite-heroes">Favorite Heroes</h1>
+
+            <div class="heroes">
+              <div class="heroes-slide">
+                <div class="hero-card first-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/invoker.png"
+                    alt="Invoker"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_universal.png"
+                      alt="Attribute Universal"
+                    />
+                    <p class="hero-name-text">Invoker</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/tinker.png"
+                    alt="Tinker"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_intelligence.png"
+                      alt="Attribute Intelligence"
+                    />
+                    <p class="hero-name-text">Tinker</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/phantom_assassin.png"
+                    alt="Phantom Assassin"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_agility.png"
+                      alt="Attribute Agility"
+                    />
+                    <p class="hero-name-text">Phantom Assassin</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/huskar.png"
+                    alt="Huskar"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_strength.png"
+                      alt="Attribute Strength"
+                    />
+                    <p class="hero-name-text">Huskar</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/kunkka.png"
+                    alt="Kunkka"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_strength.png"
+                      alt="Attribute Strength"
+                    />
+                    <p class="hero-name-text">Kunkka</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/templar_assassin.png"
+                    alt="Templat Assassin"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_agility.png"
+                      alt="Attribute Agility"
+                    />
+                    <p class="hero-name-text">Templar Assassin</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/lina.png"
+                    alt="Lina"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_intelligence.png"
+                      alt="Attribute Intelligence"
+                    />
+                    <p class="hero-name-text">Lina</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/void_spirit.png"
+                    alt="Void Spirit"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_universal.png"
+                      alt="Attribute Universal"
+                    />
+                    <p class="hero-name-text">Void Spirit</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/antimage.png"
+                    alt="Anti Mage"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_agility.png"
+                      alt="Attribute Agility"
+                    />
+                    <p class="hero-name-text">Anti Mage</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/axe.png"
+                    alt="Axe"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_strength.png"
+                      alt="Attribute Strength"
+                    />
+                    <p class="hero-name-text">Axe</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/mirana.png"
+                    alt="Mirana"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_universal.png"
+                      alt="Attribute Universal"
+                    />
+                    <p class="hero-name-text">Mirana</p>
+                  </div>
+                </div>
+                <div class="hero-card" style="gap: 150px;">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/obsidian_destroyer.png"
+                    alt="Outworld Destroyer"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_intelligence.png"
+                      alt="Attribute Intelligence"
+                    />
+                    <p class="hero-name-text">OutWorld Destroyer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="heroes-2">
+              <div class="heroes-slide-2">
+                <div class="hero-card" style="background-color: yellow">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/earthshaker.png"
+                    alt="Earthshaker"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_strength.png"
+                      alt="Attribute Strength"
+                    />
+                    <p class="hero-name-text">Earthshaker</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/storm_spirit.png"
+                    alt="Storm Spirit"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_intelligence.png"
+                      alt="Attribute Intelligence"
+                    />
+                    <p class="hero-name-text">Storm Spirit</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/slardar.png"
+                    alt="Slardar"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_strength.png"
+                      alt="Attribute Strength"
+                    />
+                    <p class="hero-name-text">Slardar</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/monkey_king.png"
+                    alt="Monkey King"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_agility.png"
+                      alt="Attribute Agility"
+                    />
+                    <p class="hero-name-text">Monkey King</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/necrolyte.png"
+                    alt="Necrophos"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_intelligence.png"
+                      alt="Attribute Intelligence"
+                    />
+                    <p class="hero-name-text">Necrophos</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/bloodseeker.png"
+                    alt="Bloodseeker"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_agility.png"
+                      alt="Attribute Agility"
+                    />
+                    <p class="hero-name-text">Bloodseeker</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/pudge.png"
+                    alt="Pudge"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_strength.png"
+                      alt="Attribute Strength"
+                    />
+                    <p class="hero-name-text">Pudge</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/slark.png"
+                    alt="Slark"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_agility.png"
+                      alt="Attribute Agility"
+                    />
+                    <p class="hero-name-text">Slark</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/queenofpain.png"
+                    alt="Queen of Pain"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_intelligence.png"
+                      alt="Attribute Intelligence"
+                    />
+                    <p class="hero-name-text">Queen of Pain</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/vengefulspirit.png"
+                    alt="Vengeful Spirit"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_universal.png"
+                      alt="Attribute Universal"
+                    />
+                    <p class="hero-name-text">Vengeful Spirit</p>
+                  </div>
+                </div>
+                <div class="hero-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/juggernaut.png"
+                    alt="Juggernaut"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_agility.png"
+                      alt="Attribute Agility"
+                    />
+                    <p class="hero-name-text">Juggernaut</p>
+                  </div>
+                </div>
+                <div class="hero-card last-card">
+                  <img
+                    class="hero-image"
+                    src="./assets/images/heroes/bristleback.png"
+                    alt="Bristleback"
+                  />
+                  <div class="hero-name">
+                    <img
+                      class="hero-attribute"
+                      src="./assets/images/attributes/hero_strength.png"
+                      alt="Attribute Strength"
+                    />
+                    <p class="hero-name-text">Bristleback</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="esports">
+        <div class="esports-container">
+          <div class="esport-icon">
+            <img src="./assets/images/icons/dpc.png" alt="DPC Icon" />
+          </div>
+          <div class="fade-in">
+            <div class="title-wrap">
+              <h2 class="title-1">The</h2>
+              <h1 class="title-2">Dota Pro Circuit</h1>
+            </div>
+          </div>
+          <p class="border-title"></p>
+          <blockquote class="description">
+            When not climbing the ranks, you'll be able to learn from the best.
+            The Dota Pro Circuit features ultra-high-level Dota 2 competition
+            streaming regularly in the game client, on Twitch and Steam.TV.
+            Culminating in the largest e-sports championship in the world, The
+            International, professional Dota 2 is an event not to be missed.
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="join-battle">
+        <div class="join-battle-container">
+          <div class="title-wrap">
+            <h2 class="title-1">Join The</h2>
+            <h1 class="title-2">Battle</h1>
+            <p class="border-title"></p>
+          </div>
+          <a
+            href="https://store.steampowered.com/app/570/Dota_2/"
+            class="button"
+          >
+            <p class="button-text">Play Free Now</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logos">
+        <img
+          class="footer-valve"
+          src="./assets/images/icons/valve-footer.png"
+          alt="Valve Footer"
+        />
+        <img
+          class="footer-dota"
+          src="./assets/images/icons/dota_footer.png"
+          alt="Dota2 Footer"
+        />
+      </div>
+      <div class="footer-text">
+        &copy; Dota and the Dota logo are trademarks and/or registered
+        trademarks of Valve Corporation. 2023 Valve Corporation, all rights
+        reserved.
+      </div>
+    </footer>
+
+    <div class="alert">
+      <p class="message">Your device is not supported</p>
+      <img
+        class="alert-icon"
+        src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7d/Invoker_minimap_icon.png"
+        alt="Invoker Icon"
+      />
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
