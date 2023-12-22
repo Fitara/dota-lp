@@ -1,6 +1,6 @@
 # Dota 2 Landing Page Clone
 
-This is a project to clone the Dota 2 landing page using HTML, CSS, and JavaScript. The project is created for learning and improving web design and frontend development skills.
+This is a project to clone the Dota 2 landing page using HTML, CSS, and JavaScript. The project is created for improving web design and frontend development skills.
 
 ## Project Description
 
